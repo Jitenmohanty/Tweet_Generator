@@ -1,0 +1,28 @@
+{
+  "name": "tweet_generator",
+  "version": "1.0.0",
+  "description": "Automated Tweet agent...",
+  "license": "ISC",
+  "author": "Jiten Moahnty",
+  "type": "module",
+  "main": "index.js",
+ "scripts": {
+  "dev": "nodemon index.js",         
+  "start": "node index.js",          
+  "test": "node test.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.18.0",
+    "node-cron": "^4.2.1",
+    "twitter-api-v2": "^1.25.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
